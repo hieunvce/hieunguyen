@@ -1,0 +1,13 @@
+#profile-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("images/contacts.jpg");
+    background-size: cover;
+}
+#contacts {
+    display: flex;
+}
+#contacts > a {
+    margin: 0 5vw;
+}

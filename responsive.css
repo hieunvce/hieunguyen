@@ -1,0 +1,41 @@
+@media only screen and (max-width: 600px) {
+    .page-section {
+        height: auto;
+        padding: 2vh 2vw;
+    }
+    #projects-detail {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-tile {
+        display: flex;
+        width: 100vw;
+        height: auto;
+        margin: 2vw 0vw;
+    
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        background: #B9C8FF;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .project-img {
+        margin-top: 5%;
+    }
+    #navbar {
+        height: 7vw;
+        max-height: 8vw;
+    }
+    #navbar > a {
+        display: block;
+        float: left;
+        color: #ffffff;
+        font-size: 4vw;
+        padding: 0.5vw 1vw;
+    }
+}

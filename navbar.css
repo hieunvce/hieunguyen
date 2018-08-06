@@ -1,0 +1,27 @@
+#navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #333333;
+    width: 100vw;
+    height: 8vh;
+    max-height: 8vh;
+    margin: 0%;
+    text-align: center;
+}
+#navbar > a {
+    display: block;
+    float: left;
+    color: #ffffff;
+    font-size: 3vh;
+    padding: 0.5em 1em;
+}
+#navbar > a:hover {
+    background: #eeeeee;
+    color: #000000;
+}
+
+footer {
+    text-align: center;
+}

@@ -1,0 +1,49 @@
+#projects {
+    display: block;
+    text-align: center;
+    height: auto;
+}
+#projects > h2 {
+    font-size: 2em; 
+    padding: 10vh;
+}
+#projects-detail {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.project-tile {
+    display: flex;
+    width: 25vw;
+    height: 25vw;
+    margin: 5vw;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #B9C8FF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.project-img {
+    height: 50%;
+    width: 50%;
+    border-radius: 100%;
+}
+
+.project-desc {
+    padding: 5%;
+}
+#projects-btn {
+    display: flex;
+    justify-content: center;
+}
+#projects-btn > .link-btn {
+    margin: 5vw;
+}
